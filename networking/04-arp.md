@@ -215,20 +215,20 @@ Podemos representar de forma simplificada:
 ```text
         PACOTE IP
 ┌─────────────────────────┐
-│ IP de origem            │
-│ IP de destino           │
-│ Dados                   │
+│ IP de origem                   │
+│ IP de destino                  │
+│ Dados                          │
 └─────────────────────────┘
              ↓
        encapsulado em
              ↓
        QUADRO ETHERNET
 ┌──────────────────────────────┐
-│ MAC de destino               │
-│ MAC de origem                │
-│                              │
-│        PACOTE IP             │
-│                              │
+│ MAC de destino                      │
+│ MAC de origem                       │
+│                                     │
+│        PACOTE IP                    │
+│                                     │
 └──────────────────────────────┘
 ```
 
